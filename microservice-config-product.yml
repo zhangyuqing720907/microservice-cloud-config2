@@ -69,3 +69,7 @@ eureka:
    
 emp:
   name: wangwu
+  
+girl:
+  name: lili
+  age: 18
