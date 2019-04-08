@@ -12,10 +12,10 @@ spring:
     
 eureka:
   instance:
-    hostname: 192.168.199.131 
+    hostname: 192.168.199.131
   client:
-    registerWithEureka: false 
-    fetchRegistry: false 
+    registerWithEureka: false
+    fetchRegistry: false
     serviceUrl:
       defaultZone: http://${eureka.instance.hostname}:6001/eureka/
   server:
@@ -32,8 +32,8 @@ eureka:
   instance:
     hostname: 192.168.199.131
   client:
-    registerWithEureka: false 
-    fetchRegistry: false 
+    registerWithEureka: false
+    fetchRegistry: false
     serviceUrl:
       defaultZone: http://${eureka.instance.hostname}:6001/eureka/
   server:
